@@ -280,7 +280,7 @@ body{
 /* ------------------- Media Query ------------------------ */
 
 /* for large screen sm (640px) */
-@media (min-width: 640px) {
+@media (min-width: 200px){
     .container{
         max-width: 640px;
     }
@@ -294,8 +294,18 @@ body{
         padding-right: 3.5rem;
     }
     /* .text-gray1{
-        color: white;
+        color: yellow;
     } */
+    #lap{
+        display: none;
+    }
+    #phone{
+        display: inline-block;
+        text-align: center;
+    }
+    #marg{
+        margin-top: 2rem;
+    }
 }
 
 /* for large screen md (768px) */
@@ -318,6 +328,12 @@ body{
 
     .md-text-dark{
         color: var(--text-dark2);
+    }
+    #lap{
+        display: none;
+    }
+    #phone{
+        display: inline-block;
     }
     
 
@@ -366,6 +382,12 @@ body{
         color: var(--text-gray);
         font-size: 1.5rem;
     }
+    #lap{
+        display: inline-block;
+    }
+    #phone{
+        display: none;
+    }
 
 }
 
@@ -385,6 +407,12 @@ body{
     .text-gray1{
         color: var(--text-gray);
         font-size: 1.5rem;
+    }
+    #lap{
+        display: inline-block;
+    }
+    #phone{
+        display: none;
     }
 
 }
