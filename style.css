@@ -66,8 +66,8 @@ ul{
     color: var(--text-gray);
 }
 .text-gray1{
-    color: var(--text-gray);
-    font-size: 1.5rem;
+    color: white;
+    font-size: 1.2rem;
 }
 
 .text-red{
@@ -293,6 +293,9 @@ body{
         padding-left: 3.5rem;
         padding-right: 3.5rem;
     }
+    /* .text-gray1{
+        color: white;
+    } */
 }
 
 /* for large screen md (768px) */
@@ -316,6 +319,7 @@ body{
     .md-text-dark{
         color: var(--text-dark2);
     }
+    
 
 }
 
@@ -358,6 +362,10 @@ body{
     .lg-cols-4{
         grid-template-columns: repeat(4, minmax(0, 1fr));
     }
+    .text-gray1{
+        color: var(--text-gray);
+        font-size: 1.5rem;
+    }
 
 }
 
@@ -373,6 +381,10 @@ body{
 
     #nav .flex-initial ul button{
         display: inline-block !important;
+    }
+    .text-gray1{
+        color: var(--text-gray);
+        font-size: 1.5rem;
     }
 
 }
